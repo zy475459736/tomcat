@@ -23,7 +23,7 @@ public class CloseReason {
 
     public CloseReason(CloseReason.CloseCode closeCode, String reasonPhrase) {
         this.closeCode = closeCode;
-        this.reasonPhrase = reasonPhrase;
+        this.reasonPhrase = reasonPhrase;int i = 1;
     }
 
     public CloseCode getCloseCode() {
